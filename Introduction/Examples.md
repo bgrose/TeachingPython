@@ -1,4 +1,4 @@
-# Introduction
+# Introduction Examples
 **Exercise 1:**
 Create a function called `exercise1()` that prints "Hell World" <br /><br />
 **Exercise 2:**
