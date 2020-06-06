@@ -10,9 +10,7 @@ Write a function called `exercise4(miles)` that converts miles to feet. There ar
 **Exercise 5:**
 Write a function called `exercise5(age)`. This function should use if-elif-else statement to print out "Have a glass of water." for anyone under 7; "Have a Coke." for anyone under 21, and "Have some Sangria." for anyone 21 or older.<br /><br />
 **Exercise 6:**
-Write a function called `exercise6()` that computes the area of a trapezoid. Here is the formula: `A = (1/2)(b1+b2)h`. In the formula b1 is the length of one of the bases, b2 the other. The height is h and the area is A. Use input statements to ask for the bases and the height. Convert these input strings to real numbers using `float()`.<br /><br />
-**Exercise 7:**
-Write a function `exercise7()` that takes a list called `list` and does all of the following, each on a separate line. Recall that lists start numbering with an index of 0.
+Write a function `exercise6()` that takes a list called `list` and does all of the following, each on a separate line. Recall that lists start numbering with an index of 0.
 
 -   print the whole list
 -   print the item with index 0
@@ -25,8 +23,8 @@ Write a function `exercise7()` that takes a list called `list` and does all of t
 
 Use list = ['Keanu', 'River', 'Leonardo', 'Brad', 'A', '1998']<br />
 
-**Exericse 8:**
-Write a function called `exercise8(csv_file, element)` that will read in the CSV file `periodictable.csv` to a dictionary and then looks up and prints out the atomic number and symbol for calcium. Don't forget to import the csv library and make sure the program works whether or not the element string is capitalized or not. The dictionary key should be element and the values should be the atomic number and symbol.<br />
+**Exericse 7:**
+Write a function called `exercise7(csv_file, element)` that will read in the CSV file `periodictable.csv` to a dictionary and then looks up and prints out the atomic number and symbol for calcium. Don't forget to import the csv library and make sure the program works whether or not the element string is capitalized or not. The dictionary key should be element and the values should be the atomic number and symbol.<br />
 
-**Exericse 9:**
-Write a function called `exercise9(month, day, year)` that will convert a date such as June 3, 2019 into the format 6/3/2019. Use a dictionary to convert from the name of the month to the number of the month. For example months = {"January":1, "February":2, ...} will make it easy to look up the month number as months["February"] and so on.
+**Exericse 8:**
+Write a function called `exercise8(month, day, year)` that will convert a date such as June 3, 2019 into the format 6/3/2019. Use a dictionary to convert from the name of the month to the number of the month. For example months = {"January":1, "February":2, ...} will make it easy to look up the month number as months["February"] and so on.
