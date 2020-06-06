@@ -23,7 +23,7 @@ Write a function `exercise7()` that takes a list called `my_list` and does all o
 -   print the length of the list (use  `len()`)
 -   Use the  `append()`  method of a list to append the letter  `z`  onto a list and print the list with  `z`  appended.
 
-Use my_list = ['Keanu', 'River', 'Leonardo', 'Brad', 'A', '1998']<br /><br />
+Use my_list = ['Keanu', 'River', 'Leonardo', 'Brad', 'A', '1998']<br />
 
 **Exericse 8:**
 Write a function called `exercise8(csv_file, element)` that will read in the CSV file `periodictable.csv` to a dictionary and then looks up and prints out the atomic number and symbol for calcium. Don't forget to import the csv library and make sure the program works whether or not the element string is capitalized or not. The dictionary key should be element and the values should be the atomic number and symbol.<br />
