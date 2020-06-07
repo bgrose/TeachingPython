@@ -63,12 +63,11 @@ def exercise7(file, ele):
 # Example 8
 def exercise8(mon, day, year):
     months = {'January':1, 'February':2, 'March':3, 'April':4, 'May':5, 'June':6, 'July':7, 'August':8, 'September':9, 'October':10, 'November':11, 'December':12}
-
     print(str(months[mon]) + '/' + str(day) + '/'+ str(year))
 
 
 #Debug Tester (Change Out Exercise Number)
 def main():
-    exerciseX(Y,Z)
+    exercise8()
 if __name__ == "__main__":
     main()
