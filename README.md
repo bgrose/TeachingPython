@@ -1,5 +1,5 @@
 # Teaching Python Code Lessons and Projects
-Teaching set and lessons for python based on the USC Physics Department STEM Python Tutorial. Mainly used to teach my sister Python over Summer 2020
+Teaching set and lessons for python based on the USC Physics Department STEM Python Tutorial as welll as probelms reworked from Stack Overflow, and my CSCE145/146 class with java programs adjusted. Mainly used to teach my sister Python over Summer 2020
 
 ## Topics Covered
 
