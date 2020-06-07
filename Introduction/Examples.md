@@ -24,7 +24,10 @@ Write a function `exercise6()` that takes a list called `list` and does all of t
 Use list = ['Keanu', 'River', 'Leonardo', 'Brad', 'A', '1998']<br />
 
 **Exericse 7:**
-Write a function called `exercise7(csv_file, element)` that will read in the CSV file `periodictable.csv` to a dictionary and then looks up and prints out the atomic number and symbol for calcium. Don't forget to import the csv library and make sure the program works whether or not the element string is capitalized or not. The dictionary key should be element and the values should be the atomic number and symbol.<br />
+Write a function called `exercise7()` that computes the area of a trapezoid. Here is the formula: `A = (1/2)(b1+b2)h`. In the formula b1 is the length of one of the bases, b2 the other. The height is h and the area is A. Use input statements to ask for the bases and the height. Convert these input strings to real numbers using `int(input())`<br />
 
 **Exericse 8:**
 Write a function called `exercise8(month, day, year)` that will convert a date such as June 3, 2019 into the format 6/3/2019. Use a dictionary to convert from the name of the month to the number of the month. For example months = {"January":1, "February":2, ...} will make it easy to look up the month number as months["February"] and so on.
+
+**Exericse 9:**
+Write a function called `exercise9(element)` that will read in the CSV file at location `Introduction\periodictable.csv` to a dictionary and then looks up and prints out the atomic number and symbol for calcium. The dictionary key should be element and the values should be the atomic number and symbol.<br />

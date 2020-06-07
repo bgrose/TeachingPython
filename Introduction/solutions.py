@@ -43,31 +43,39 @@ def exercise6():
     print(list)
 
 # Example 7
-def exercise7(file, ele):
-    import csv
-    
-    f = open(file)
-    dict = {}
-    
-    for row in csv.reader(f):
-        dict[row[2]] = row[0], row[1]
-    
-    if ele.lower():
-        cap = ele.capitalize()
-        print(dict[cap])
-    else:
-        print(dict[ele])
-        
-    f.close()
+def exercise7():
+    print("\n")
+    b1 = int(input ("\nWhat is the bottom base\t\t"))
+    b2 = int(input ("\nWhat is the top base\t\t"))
+    h = int(input ("\nWhat is the height\t\t"))
+    area = (0.5)*((b1+b2)*h)
+    print("The area of a trapezoid with bases {0} and {1} and height {2} is {3}").format(b1, b2, h, area)
 
 # Example 8
 def exercise8(mon, day, year):
     months = {'January':1, 'February':2, 'March':3, 'April':4, 'May':5, 'June':6, 'July':7, 'August':8, 'September':9, 'October':10, 'November':11, 'December':12}
     print(str(months[mon]) + '/' + str(day) + '/'+ str(year))
 
+def exercise9(ele):
+    import csv
+
+    f = open("Introduction\periodictable.csv")
+    dict = {}
+
+    for row in csv.reader(f):
+       dict[row[2]] = row[0], row[1]
+
+    if ele.lower():
+        cap = ele.capitalize()
+        print(dict[cap])
+    else:
+      print(dict[ele])
+
+    f.close()
+
 
 #Debug Tester (Change Out Exercise Number)
 def main():
-    exercise8()
+    exercise9("Helium")
 if __name__ == "__main__":
     main()
