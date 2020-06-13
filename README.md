@@ -18,3 +18,7 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 - Creating Objects from Arguments
 - Basic I/O
 - Reading and Writing .csv Files
+- Random Numbers
+
+### Projects
+- Over Under Game
