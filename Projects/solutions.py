@@ -2,9 +2,9 @@
 def overUnder():
 
     import random
-    num1 = random.randint(0,100)
     trigger = "yes"
     while(trigger.lower() == "yes"):
+        num1 = random.randint(0,100)
         overUnderGuess = raw_input("The Number is {0}. Will the next number be over or under?\n".format(num1))
         if(overUnderGuess.lower() != "over" and overUnderGuess.lower() != "under"):
             print("Invalid Input")
@@ -23,6 +23,7 @@ def overUnder():
         else:
             print("Whoops! It was the same!")
         trigger = raw_input("Would you like to play again\n")
+
 
     
 
