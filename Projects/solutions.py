@@ -28,7 +28,9 @@ def overUnder():
 #Math Problem Simulator
 def mathGame():
     import random
-    while(1==1):
+    usanswer = 0
+    while(usanswer != 404):
+        print("Type 404 to quit")
         num1 = random.randint(0,10)
         num2 = random.randint(0,10)
         symb = random.randint(0,2)
@@ -46,19 +48,35 @@ def mathGame():
 
         if(answer == usanswer):
             print("You are correct!\n")
+        if(usanswer == 404):
+            print("Goodbye!")
         else:
             print("You are wrong!\n")
-        
 
 
-
-
+def changeMaker():
+    c = input("How much is owed to the user?\t$")
+    c = c*100 #Formating to Maker it Look nicer, not needed though
+    print(int(c//2000), "twenty")
+    c = c%2000
+    print(int(c//1000), "tens")
+    c = c%1000
+    print(int(c//500), "fives")
+    c = c%500
+    print(int(c//100), "dollars")
+    c = c%100
+    print(int(c//25), "quarters")
+    c = c%25
+    print(int(c//10), "dimes")
+    c = c%10
+    print(int(c//5), "nickles")
+    c = c%5
+    print(int(c//1), "pennies")
     
 
 
-#Debug Tester (Change Out Exercise Number)
-def main():
-    mathGame()
-if __name__ == "__main__":
-    main()
+#Tester
 
+overUnder()
+mathGame()
+changeMaker()

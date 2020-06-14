@@ -13,4 +13,8 @@ Create a function called `overUnder()` that randomly generates a number between 
 
 **Exercise 2:**
 
-Create a math question generator that runs infinitly. Create a function `mathGame()` That randomly generates 2 numbers between 0 and 10 and randomly selects an operation * + - (division excluded because math hard). Then, the user types their answer. The game then will check if it is correct, display the result. It then will ask a new question.
+Create a math question generator that runs infinitly. Create a function `mathGame()` That randomly generates 2 numbers between 0 and 10 and randomly selects an operation * + - (division excluded because math hard). Then, the user types their answer. The game then will check if it is correct, display the result. It then will ask a new question. The game will end if the user answers with `404`
+
+**Exercise 3:**
+
+Create a function called `changeMaker()` that will allow the user to input the change owed to the user. The code will then figure out the proper bills and coinage for the user, using $20, $10, $5, $1, quarters, nickels, dimes, and pennies. It will then give the change.

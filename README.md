@@ -6,6 +6,7 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 ### Introduction
 - Objects/Types/Variables
 - Basic Operators
+- Modulus
 - Containers (String, List, Tuple, Set, Directory)
 - Accessing Data in Countainers
 - Built in Functions and Callables

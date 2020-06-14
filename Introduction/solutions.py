@@ -74,9 +74,13 @@ def exercise9(ele):
 
     f.close()
 
-
-#Debug Tester (Change Out Exercise Number)
-def main():
-    exercise9("Helium")
-if __name__ == "__main__":
-    main()
+#Tester
+exercise1()
+exercise2(2, 5)
+exercise3(22)
+exercise4(5)
+exercise5(22)
+exercise6()
+exercise7()
+exercise8("June", 24, 1998)
+exercise9("Gold")
