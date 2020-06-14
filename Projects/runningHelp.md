@@ -9,7 +9,7 @@ Make Sure these are installed
 #### Run in Terminal Command
 `$ python Projects\solutions.py`
 
-*for the snake game*<br />
+*for the snake game*<br /><br />
 `$ python Projects\snake.py`
 
 #### Commands to run for each example
