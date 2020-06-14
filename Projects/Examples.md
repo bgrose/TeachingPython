@@ -22,3 +22,8 @@ Create a function called `changeMaker()` that will allow the user to input the c
 **Exercise 4:**
 
 Using Numpy and MatPlot, make a graph that has a sin and cosine graph with labels and legends in the function `graph()`
+
+
+**Exercise 5: Snake Game**
+
+Create a Snake Game using the snake template in a seperate file
