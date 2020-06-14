@@ -27,9 +27,6 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 ### Projects
 - Over Under Game
 - Math problem solver
-<<<<<<< HEAD
 - Change Maker
 - MatPlot Cos/Sin Curve Graph
-=======
 - Running Code in Terminal
->>>>>>> e9828b1915a0427a268a42fe08dbb9ffdc2ebc5e
