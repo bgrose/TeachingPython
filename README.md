@@ -23,6 +23,7 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 - Using and Remaming import packages
 - Numpy
 - Matplot
+- Using Pip
 
 ### Projects
 - Over Under Game
