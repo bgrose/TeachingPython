@@ -1,9 +1,9 @@
 # Commands to Help Run Section
 
 Make Sure these are installed
-> pip install matplotlib
-> pip install numpy
-> pip install pygame
+> pip install matplotlib<br />
+> pip install numpy<br />
+> pip install pygame<br />
 
 
 #### Run in Terminal Command
