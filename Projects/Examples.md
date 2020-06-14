@@ -18,3 +18,7 @@ Create a math question generator that runs infinitly. Create a function `mathGam
 **Exercise 3:**
 
 Create a function called `changeMaker()` that will allow the user to input the change owed to the user. The code will then figure out the proper bills and coinage for the user, using $20, $10, $5, $1, quarters, nickels, dimes, and pennies. It will then give the change.
+
+**Exercise 4:**
+
+Using Numpy and MatPlot, make a graph that has a sin and cosine graph with labels and legends in the function `graph()`

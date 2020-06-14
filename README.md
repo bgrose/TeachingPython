@@ -20,7 +20,12 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 - Basic I/O
 - Reading and Writing .csv Files
 - Random Numbers
+- Using and Remaming import packages
+- Numpy
+- Matplot
 
 ### Projects
 - Over Under Game
 - Math problem solver
+- Change Maker
+- MatPlot Cos/Sin Curve Graph
