@@ -7,3 +7,4 @@
 #### Commands to run for each example
 
 `overUnder()`<br />
+`mathGame()`<br />
