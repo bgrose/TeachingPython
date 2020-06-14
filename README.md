@@ -23,6 +23,8 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 - Using and Remaming import packages
 - Numpy
 - Matplot
+- Pygame
+- Time
 - Using Pip
 
 ### Projects
@@ -31,3 +33,4 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 - Change Maker
 - MatPlot Cos/Sin Curve Graph
 - Running Code in Terminal
+- Creating a Snake Game using PyGame
