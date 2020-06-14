@@ -13,4 +13,4 @@ Create a function called `overUnder()` that randomly generates a number between 
 
 **Exercise 2:**
 
-Create a math question generator that runs infinitly. Create a function `mathGame()` That randomly generates 2 numbers between 0 and 10 and randomly selects an operation * + - (division excluded because math hard). Then, the user types their answer. The game then will check if it is correct, display the result. It then will ask a new question/
+Create a math question generator that runs infinitly. Create a function `mathGame()` That randomly generates 2 numbers between 0 and 10 and randomly selects an operation * + - (division excluded because math hard). Then, the user types their answer. The game then will check if it is correct, display the result. It then will ask a new question.
