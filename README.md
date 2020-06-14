@@ -24,3 +24,4 @@ Teaching set and lessons for python based on the USC Physics Department STEM Pyt
 ### Projects
 - Over Under Game
 - Math problem solver
+- Running Code in Terminal
