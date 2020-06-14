@@ -1,4 +1,5 @@
 
+# Over Under Game
 def overUnder():
 
     import random
@@ -24,6 +25,7 @@ def overUnder():
             print("Whoops! It was the same!")
         trigger = raw_input("Would you like to play again\n")
 
+#Math Problem Simulator
 def mathGame():
     import random
     while(1==1):
