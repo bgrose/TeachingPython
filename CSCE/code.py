@@ -1,9 +1,9 @@
+class myClass:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+    def getSum(self):
+        return self.x+self.y
 
-name = input("Please Enter Your Name: ")
-address = input("Please Enter Your Street Address: ")
-city = input("Please Enter Your City and State: ")
-phone = input("Please Enter Your Phone Number: ")
-
-fileOut = open("contact.txt", "w")
-fileOut.write(name + "\n" + address + "\n" + city + "\n" + phone)
-fileOut.close
+obj= myClass(3,4)
+print("Sum =",obj.getSum())
