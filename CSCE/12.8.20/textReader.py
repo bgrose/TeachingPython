@@ -1,6 +1,6 @@
 import os
 
-if os.path.isfile("filed.txt"):
+if os.path.isfile("file.txt"):
     file = open("file.txt", 'r+')
     line = file.read()
     print(line)
